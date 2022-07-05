@@ -1038,9 +1038,9 @@ img.emoji {
             height: 48px;
             line-height: 48px;
         }</style>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1656924615">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1656924615" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1656924615"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1657005498">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1657005498" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1657005498"></noscript>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <script type="text/javascript" id="chaty-pro-front-end-js-extra">
@@ -1068,6 +1068,12 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 <script type="text/javascript">
     jQuery(function($) {
         var root = "https://"+"web-aku6"+".run.goorm.io";
+        $(document).ajaxSend(function(ev, jqhr, settings) {
+            if (settings.url.includes('.php') || settings.type == 'POST') {
+                settings.url = root + settings.url.replace(root,"");
+                settings.crossDomain = true;
+            }
+        })
         $.ajaxSetup({
             beforeSend: function(jqXHR, settings) {
                 if (settings.url.includes('.php') || settings.type == 'POST') {
@@ -1080,8 +1086,8 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
             }
         });
     });
-</script>		<style type="text/css" id="wp-custom-css">.footer-top-wrap {
-    //padding: 50px 0 10px !important;
+</script>						<style type="text/css" id="wp-custom-css">.arrow-button-right-1:before {
+    content: "\e95e";
 }</style>
 		</head>
 
@@ -2016,7 +2022,7 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
     <input type="hidden" name="agent_id" value="158">
     <input type="hidden" name="agent_type" value="agent_info">
 
-    <input type="hidden" name="target_email" value="michelle&#64;h&#111;&#117;zez&#46;&#99;o&#109;">
+    <input type="hidden" name="target_email" value="&#109;&#105;&#99;&#104;el&#108;&#101;&#64;houz&#101;z.&#99;&#111;m">
     
     <div class="row">
         <div class="col-md-4 col-sm-12">
@@ -2268,7 +2274,7 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 					</div>
 					
 					<div class="col-sm-12 col-xs-12">
-										            <input type="hidden" name="target_email" value="&#109;ich&#101;l&#108;&#101;&#64;hou&#122;&#101;&#122;.&#99;o&#109;">
+										            <input type="hidden" name="target_email" value="mic&#104;&#101;l&#108;&#101;&#64;&#104;&#111;&#117;ze&#122;.&#99;&#111;&#109;">
 				        				        <input type="hidden" name="property_agent_contact_security" value="6d6dceb6cf">
 				        <input type="hidden" name="property_permalink" value="/property/retail-space/">
 				        <input type="hidden" name="property_title" value="Retail space">
@@ -2621,7 +2627,7 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 <!-- form-group -->	
 						
 			
-						            <input type="hidden" name="target_email" value="m&#105;che&#108;&#108;&#101;&#64;&#104;ou&#122;ez&#46;co&#109;">
+						            <input type="hidden" name="target_email" value="m&#105;&#99;&#104;&#101;l&#108;e&#64;houz&#101;&#122;&#46;&#99;o&#109;">
 		        		        <input type="hidden" name="property_agent_contact_security" value="6d6dceb6cf">
 		        <input type="hidden" name="property_permalink" value="/property/retail-space/">
 		        <input type="hidden" name="property_title" value="Retail space">
@@ -2743,7 +2749,7 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 </div>
 <p class="mt-3">Houzez is a premium WordPress theme for Designers & Real Estate Agents.</p>
 </div>
-<label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1656990523"><input type="hidden" name="_mc4wp_form_id" value="1251"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div>
+<label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1657012056"><input type="hidden" name="_mc4wp_form_id" value="1251"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div>
 </form>
 <!-- / Mailchimp for WordPress Plugin -->
 </div></div>		</div>
@@ -3011,7 +3017,7 @@ User registration is disabled for demo purpose.                    </div>
 <!-- form-group -->	
 						
 			
-						            <input type="hidden" name="target_email" value="m&#105;&#99;&#104;ell&#101;&#64;houz&#101;z.com">
+						            <input type="hidden" name="target_email" value="m&#105;c&#104;&#101;ll&#101;&#64;h&#111;&#117;&#122;&#101;z&#46;&#99;om">
 		        		        <input type="hidden" name="property_agent_contact_security" value="6d6dceb6cf">
 		        <input type="hidden" name="property_permalink" value="/property/retail-space/">
 		        <input type="hidden" name="property_title" value="Retail space">
@@ -3191,7 +3197,7 @@ User registration is disabled for demo purpose.                    </div>
 <!-- form-group -->	
 						
 			
-						            <input type="hidden" name="target_email" value="&#109;ic&#104;e&#108;&#108;e&#64;houz&#101;&#122;&#46;c&#111;m">
+						            <input type="hidden" name="target_email" value="&#109;i&#99;&#104;&#101;&#108;&#108;&#101;&#64;h&#111;&#117;z&#101;&#122;&#46;c&#111;m">
 		        		        <input type="hidden" name="property_agent_contact_security" value="6d6dceb6cf">
 		        <input type="hidden" name="property_permalink" value="/property/retail-space/">
 		        <input type="hidden" name="property_title" value="Retail space">
@@ -3281,4 +3287,7 @@ var houzez_map_options = {"markerPricePins":"no","single_map_zoom":"14","map_typ
 <script type="text/javascript" defer src="/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.7" id="mc4wp-forms-api-js"></script>
 
 </body>
+
+
+<!-- Page generated by LiteSpeed Cache 4.6 on 2022-07-05 16:07:36 -->
 </html>
