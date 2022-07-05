@@ -1036,9 +1036,9 @@ img.emoji {
             height: 48px;
             line-height: 48px;
         }</style>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1656924615">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1656924615" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1656924615"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1657005498">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1657005498" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1657005498"></noscript>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <script type="text/javascript" id="chaty-pro-front-end-js-extra">
@@ -1066,6 +1066,12 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 <script type="text/javascript">
     jQuery(function($) {
         var root = "https://"+"web-aku6"+".run.goorm.io";
+        $(document).ajaxSend(function(ev, jqhr, settings) {
+            if (settings.url.includes('.php') || settings.type == 'POST') {
+                settings.url = root + settings.url.replace(root,"");
+                settings.crossDomain = true;
+            }
+        })
         $.ajaxSetup({
             beforeSend: function(jqXHR, settings) {
                 if (settings.url.includes('.php') || settings.type == 'POST') {
@@ -1078,8 +1084,8 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
             }
         });
     });
-</script>		<style type="text/css" id="wp-custom-css">.footer-top-wrap {
-    //padding: 50px 0 10px !important;
+</script>						<style type="text/css" id="wp-custom-css">.arrow-button-right-1:before {
+    content: "\e95e";
 }</style>
 		</head>
 
@@ -2554,19 +2560,19 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 							<div class="left-property-item-widget-wrap">
 								<div class="listing-image-wrap">
 	<div class="listing-thumb">
-		<a href="/vi/property/villa-with-pool/" class="listing-featured-thumb hover-effect">
-			<img width="592" height="444" src="/wp-content/uploads/2016/01/103-592x444.jpg" class="img-fluid wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2016/01/103-592x444.jpg 592w, /wp-content/uploads/2016/01/103-300x225.jpg 300w, /wp-content/uploads/2016/01/103-1024x768.jpg 1024w, /wp-content/uploads/2016/01/103-768x576.jpg 768w, /wp-content/uploads/2016/01/103-584x438.jpg 584w, /wp-content/uploads/2016/01/103-800x600.jpg 800w, /wp-content/uploads/2016/01/103-120x90.jpg 120w, /wp-content/uploads/2016/01/103-496x372.jpg 496w, /wp-content/uploads/2016/01/103.jpg 1170w" sizes="(max-width: 592px) 100vw, 592px">		</a><!-- hover-effect -->
+		<a href="/vi/property/penthouse-apartment/" class="listing-featured-thumb hover-effect">
+			<img width="592" height="444" src="/wp-content/uploads/2016/03/026-592x444.jpg" class="img-fluid wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2016/03/026-592x444.jpg 592w, /wp-content/uploads/2016/03/026-300x225.jpg 300w, /wp-content/uploads/2016/03/026-1024x768.jpg 1024w, /wp-content/uploads/2016/03/026-768x576.jpg 768w, /wp-content/uploads/2016/03/026-584x438.jpg 584w, /wp-content/uploads/2016/03/026-800x600.jpg 800w, /wp-content/uploads/2016/03/026-120x90.jpg 120w, /wp-content/uploads/2016/03/026-496x372.jpg 496w, /wp-content/uploads/2016/03/026.jpg 1170w" sizes="(max-width: 592px) 100vw, 592px">		</a><!-- hover-effect -->
 	</div>
 </div>
 							</div>
 <!-- left-property-item-widget-wrap -->
 							<div class="right-property-item-widget-wrap">
 								<h2 class="item-title">
-	<a href="/vi/property/villa-with-pool/">Equestrian Villa</a>
+	<a href="/vi/property/penthouse-apartment/">Thiết kế căn hộ</a>
 </h2>
 <!-- item-title -->								<ul class="item-price-wrap hide-on-list">
-	<li class="item-price"> 1.6M VNĐ</li>
-<li class="item-sub-price">15K VNĐ/sq ft</li>
+	<li class="item-price"> 876K VNĐ</li>
+<li class="item-sub-price">7.6 K VNĐ/dặm vuông</li>
 </ul>							</div>
 <!-- right-property-item-widget-wrap -->
 						</div>
@@ -2580,19 +2586,18 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 							<div class="left-property-item-widget-wrap">
 								<div class="listing-image-wrap">
 	<div class="listing-thumb">
-		<a href="/vi/property/luxury-villa-with-oceanview/" class="listing-featured-thumb hover-effect">
-			<img width="592" height="444" src="/wp-content/uploads/2016/02/102-592x444.jpg" class="img-fluid wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2016/02/102-592x444.jpg 592w, /wp-content/uploads/2016/02/102-300x225.jpg 300w, /wp-content/uploads/2016/02/102-1024x768.jpg 1024w, /wp-content/uploads/2016/02/102-768x576.jpg 768w, /wp-content/uploads/2016/02/102-584x438.jpg 584w, /wp-content/uploads/2016/02/102-800x600.jpg 800w, /wp-content/uploads/2016/02/102-120x90.jpg 120w, /wp-content/uploads/2016/02/102-496x372.jpg 496w, /wp-content/uploads/2016/02/102.jpg 1170w" sizes="(max-width: 592px) 100vw, 592px">		</a><!-- hover-effect -->
+		<a href="/vi/property/luxury-apartment-ocean-view/" class="listing-featured-thumb hover-effect">
+			<img width="592" height="444" src="/wp-content/uploads/2016/03/018-592x444.jpg" class="img-fluid wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2016/03/018-592x444.jpg 592w, /wp-content/uploads/2016/03/018-300x225.jpg 300w, /wp-content/uploads/2016/03/018-1024x768.jpg 1024w, /wp-content/uploads/2016/03/018-768x576.jpg 768w, /wp-content/uploads/2016/03/018-584x438.jpg 584w, /wp-content/uploads/2016/03/018-800x600.jpg 800w, /wp-content/uploads/2016/03/018-120x90.jpg 120w, /wp-content/uploads/2016/03/018-496x372.jpg 496w, /wp-content/uploads/2016/03/018.jpg 1170w" sizes="(max-width: 592px) 100vw, 592px">		</a><!-- hover-effect -->
 	</div>
 </div>
 							</div>
 <!-- left-property-item-widget-wrap -->
 							<div class="right-property-item-widget-wrap">
 								<h2 class="item-title">
-	<a href="/vi/property/luxury-villa-with-oceanview/">Biệt thự lịch sử</a>
+	<a href="/vi/property/luxury-apartment-ocean-view/">Căn hộ mới đẹp xem</a>
 </h2>
 <!-- item-title -->								<ul class="item-price-wrap hide-on-list">
-	<li class="item-price"> 3.7 triệu VNĐ</li>
-<li class="item-sub-price">9,9K VNĐ / sq ft</li>
+	<li class="item-price">11K VNĐ / tháng</li>
 </ul>							</div>
 <!-- right-property-item-widget-wrap -->
 						</div>
@@ -2606,18 +2611,18 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 							<div class="left-property-item-widget-wrap">
 								<div class="listing-image-wrap">
 	<div class="listing-thumb">
-		<a href="/vi/property/confortable-and-ample-apartment/" class="listing-featured-thumb hover-effect">
-			<img width="592" height="444" src="/wp-content/uploads/2016/03/020-592x444.jpg" class="img-fluid wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2016/03/020-592x444.jpg 592w, /wp-content/uploads/2016/03/020-300x225.jpg 300w, /wp-content/uploads/2016/03/020-1024x768.jpg 1024w, /wp-content/uploads/2016/03/020-768x576.jpg 768w, /wp-content/uploads/2016/03/020-584x438.jpg 584w, /wp-content/uploads/2016/03/020-800x600.jpg 800w, /wp-content/uploads/2016/03/020-120x90.jpg 120w, /wp-content/uploads/2016/03/020-496x372.jpg 496w, /wp-content/uploads/2016/03/020.jpg 1170w" sizes="(max-width: 592px) 100vw, 592px">		</a><!-- hover-effect -->
+		<a href="/vi/property/gorgeous-studio-bay-front/" class="listing-featured-thumb hover-effect">
+			<img width="592" height="444" src="/wp-content/uploads/2016/03/015-592x444.jpg" class="img-fluid wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2016/03/015-592x444.jpg 592w, /wp-content/uploads/2016/03/015-300x225.jpg 300w, /wp-content/uploads/2016/03/015-1024x768.jpg 1024w, /wp-content/uploads/2016/03/015-768x576.jpg 768w, /wp-content/uploads/2016/03/015-584x438.jpg 584w, /wp-content/uploads/2016/03/015-800x600.jpg 800w, /wp-content/uploads/2016/03/015-120x90.jpg 120w, /wp-content/uploads/2016/03/015-496x372.jpg 496w, /wp-content/uploads/2016/03/015.jpg 1170w" sizes="(max-width: 592px) 100vw, 592px">		</a><!-- hover-effect -->
 	</div>
 </div>
 							</div>
 <!-- left-property-item-widget-wrap -->
 							<div class="right-property-item-widget-wrap">
 								<h2 class="item-title">
-	<a href="/vi/property/confortable-and-ample-apartment/">Comfortable apartment</a>
+	<a href="/vi/property/gorgeous-studio-bay-front/">Hiện đại studio</a>
 </h2>
 <!-- item-title -->								<ul class="item-price-wrap hide-on-list">
-	<li class="item-price">1.6K VNĐ/mo</li>
+	<li class="item-price">12K VNĐ / tháng</li>
 </ul>							</div>
 <!-- right-property-item-widget-wrap -->
 						</div>
@@ -2715,7 +2720,7 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 </div>
 <p class="mt-3">Tanlands, nơi cung cấp thông tin về dự án bất động sản bạn cần. Hãy nhấc máy và liên hệ ngay</p>
 </div>
-<label style="display: none !important;">Để lĩnh vực này trống rỗng, nếu anh là con người: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1656990093"><input type="hidden" name="_mc4wp_form_id" value="1251"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div>
+<label style="display: none !important;">Để lĩnh vực này trống rỗng, nếu anh là con người: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1657011769"><input type="hidden" name="_mc4wp_form_id" value="1251"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div>
 <input type="hidden" name="trp-form-language" value="vi">
 </form>
 <!-- / Mailchimp for WordPress Plugin -->
@@ -2919,7 +2924,7 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
                         <div class="form_messages"></div>
 
                         <form method="post" action="">
-                            <input type="hidden" id="target_email" name="target_email" value="&#109;ic&#104;&#101;ll&#101;&#64;&#104;o&#117;z&#101;&#122;&#46;&#99;om">
+                            <input type="hidden" id="target_email" name="target_email" value="miche&#108;&#108;e&#64;houzez.&#99;o&#109;">
                             <input type="hidden" name="contact_realtor_ajax" id="contact_realtor_ajax" value="0a2250faae">
                             <input type="hidden" name="action" value="houzez_contact_realtor">
                             <input type="hidden" name="source_link" value="/vi/agent/ms-tan-lands/">
@@ -3027,4 +3032,6 @@ var houzez_vars = {"admin_url":"\/wp-admin\/","houzez_rtl":"no","user_id":"0","r
 <script type="text/javascript" defer src="/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.7" id="mc4wp-forms-api-js"></script>
 
 </body>
+
+<!-- Page generated by LiteSpeed Cache 4.6 on 2022-07-05 16:02:49 -->
 </html>
