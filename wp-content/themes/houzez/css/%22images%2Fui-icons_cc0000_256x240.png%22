@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Redirecting...</title>
+		<meta http-equiv="refresh" content="0;url=/wp-content/themes/houzez/css/%22images%2Fui-icons_cc0000_256x240.png">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "/wp-content/themes/houzez/css/%22images%2Fui-icons_cc0000_256x240.png";
+		</script>
+
+		<p>You are being redirected to <a href="/wp-content/themes/houzez/css/%22images%2Fui-icons_cc0000_256x240.png">/wp-content/themes/houzez/css/%22images%2Fui-icons_cc0000_256x240.png</a></p>
+	</body>
+</html>
