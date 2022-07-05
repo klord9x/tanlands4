@@ -1,0 +1,129 @@
+
+---Downloaded files---
+The import files for: Houzez04 were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = https://web-aku6.run.goorm.io
+Data file = /usr/local/lsws/wordpress_aku6/wp-content/uploads/2022/07/demo-content-import-file_2022-07-02__15-20-47.xml
+Widget file = /usr/local/lsws/wordpress_aku6/wp-content/uploads/2022/07/demo-widgets-import-file_2022-07-02__15-20-47.json
+Customizer file = not defined!
+Redux files:
+houzez_options -> /usr/local/lsws/wordpress_aku6/wp-content/uploads/2022/07/demo-redux-import-file_0-2022-07-02__15-20-47.json 
+
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Default Sidebar : 
+
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+Property Listings : 
+
+HOUZEZ: Featured Properties - Featured Listings - Widget already exists
+HOUZEZ: Property Taxonomies - Property Type - Widget already exists
+HOUZEZ: Property Taxonomies - Cities - Widget already exists
+
+Search Sidebar : 
+
+HOUZEZ: Featured Properties - Featured - Imported
+HOUZEZ: Property Taxonomies - Cities - Imported
+
+Page Sidebar : 
+
+HOUZEZ: Featured Properties - Featured - Widget already exists
+HOUZEZ: Property Taxonomies - Discover - Widget already exists
+HOUZEZ: Latest Posts - Latest Posts - Widget already exists
+
+Agency Sidebar : 
+
+HOUZEZ: Agency Search - Find Agency - Widget already exists
+HOUZEZ: Featured Properties - Featured - Widget already exists
+
+Agent Sidebar : 
+
+HOUZEZ: Agent Search - Find Agent - Widget already exists
+HOUZEZ: Recent View Properties - Recent Viewed  - Widget already exists
+
+Footer Area 1 : 
+
+HOUZEZ: Property Taxonomies - Discover - Widget already exists
+
+Footer Area 2 : 
+
+HOUZEZ: Contact Us - Contact Us - Widget already exists
+
+
+
+---Importing Redux settings---
+Redux settings import for: houzez_options finished successfully!
+
+---ocdi/after_import---
+
