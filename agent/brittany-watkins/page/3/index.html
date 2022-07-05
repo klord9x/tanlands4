@@ -1035,9 +1035,9 @@ img.emoji {
             height: 48px;
             line-height: 48px;
         }</style>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1656924615">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1656924615" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1656924615"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1657005498">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1657005498" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1657005498"></noscript>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <script type="text/javascript" id="chaty-pro-front-end-js-extra">
@@ -1065,6 +1065,12 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 <script type="text/javascript">
     jQuery(function($) {
         var root = "https://"+"web-aku6"+".run.goorm.io";
+        $(document).ajaxSend(function(ev, jqhr, settings) {
+            if (settings.url.includes('.php') || settings.type == 'POST') {
+                settings.url = root + settings.url.replace(root,"");
+                settings.crossDomain = true;
+            }
+        })
         $.ajaxSetup({
             beforeSend: function(jqXHR, settings) {
                 if (settings.url.includes('.php') || settings.type == 'POST') {
@@ -1077,8 +1083,8 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
             }
         });
     });
-</script>		<style type="text/css" id="wp-custom-css">.footer-top-wrap {
-    //padding: 50px 0 10px !important;
+</script>						<style type="text/css" id="wp-custom-css">.arrow-button-right-1:before {
+    content: "\e95e";
 }</style>
 		</head>
 
@@ -2351,18 +2357,18 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 							<div class="left-property-item-widget-wrap">
 								<div class="listing-image-wrap">
 	<div class="listing-thumb">
-		<a href="/property/confortable-apartment/" class="listing-featured-thumb hover-effect">
-			<img width="592" height="444" src="/wp-content/uploads/2016/03/032-592x444.jpg" class="img-fluid wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2016/03/032-592x444.jpg 592w, /wp-content/uploads/2016/03/032-300x225.jpg 300w, /wp-content/uploads/2016/03/032-1024x768.jpg 1024w, /wp-content/uploads/2016/03/032-768x576.jpg 768w, /wp-content/uploads/2016/03/032-584x438.jpg 584w, /wp-content/uploads/2016/03/032-800x600.jpg 800w, /wp-content/uploads/2016/03/032-120x90.jpg 120w, /wp-content/uploads/2016/03/032-496x372.jpg 496w, /wp-content/uploads/2016/03/032.jpg 1170w" sizes="(max-width: 592px) 100vw, 592px">		</a><!-- hover-effect -->
+		<a href="/property/modern-office-space/" class="listing-featured-thumb hover-effect">
+			<img width="592" height="444" src="/wp-content/uploads/2016/03/204-592x444.jpg" class="img-fluid wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2016/03/204-592x444.jpg 592w, /wp-content/uploads/2016/03/204-584x438.jpg 584w, /wp-content/uploads/2016/03/204-120x90.jpg 120w" sizes="(max-width: 592px) 100vw, 592px">		</a><!-- hover-effect -->
 	</div>
 </div>
 							</div>
 <!-- left-property-item-widget-wrap -->
 							<div class="right-property-item-widget-wrap">
 								<h2 class="item-title">
-	<a href="/property/confortable-apartment/">Confortable apartment</a>
+	<a href="/property/modern-office-space/">Modern office space</a>
 </h2>
 <!-- item-title -->								<ul class="item-price-wrap hide-on-list">
-	<li class="item-price">3.7K VNĐ/mo</li>
+	<li class="item-price">1.9K VNĐ/mo</li>
 </ul>							</div>
 <!-- right-property-item-widget-wrap -->
 						</div>
@@ -2376,19 +2382,18 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 							<div class="left-property-item-widget-wrap">
 								<div class="listing-image-wrap">
 	<div class="listing-thumb">
-		<a href="/property/ample-studio-at-last-floor/" class="listing-featured-thumb hover-effect">
-			<img width="592" height="444" src="/wp-content/uploads/2016/03/029-592x444.jpg" class="img-fluid wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2016/03/029-592x444.jpg 592w, /wp-content/uploads/2016/03/029-300x225.jpg 300w, /wp-content/uploads/2016/03/029-1024x768.jpg 1024w, /wp-content/uploads/2016/03/029-768x576.jpg 768w, /wp-content/uploads/2016/03/029-584x438.jpg 584w, /wp-content/uploads/2016/03/029-800x600.jpg 800w, /wp-content/uploads/2016/03/029-120x90.jpg 120w, /wp-content/uploads/2016/03/029-496x372.jpg 496w, /wp-content/uploads/2016/03/029.jpg 1170w" sizes="(max-width: 592px) 100vw, 592px">		</a><!-- hover-effect -->
+		<a href="/property/confortable-apartment/" class="listing-featured-thumb hover-effect">
+			<img width="592" height="444" src="/wp-content/uploads/2016/03/032-592x444.jpg" class="img-fluid wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2016/03/032-592x444.jpg 592w, /wp-content/uploads/2016/03/032-300x225.jpg 300w, /wp-content/uploads/2016/03/032-1024x768.jpg 1024w, /wp-content/uploads/2016/03/032-768x576.jpg 768w, /wp-content/uploads/2016/03/032-584x438.jpg 584w, /wp-content/uploads/2016/03/032-800x600.jpg 800w, /wp-content/uploads/2016/03/032-120x90.jpg 120w, /wp-content/uploads/2016/03/032-496x372.jpg 496w, /wp-content/uploads/2016/03/032.jpg 1170w" sizes="(max-width: 592px) 100vw, 592px">		</a><!-- hover-effect -->
 	</div>
 </div>
 							</div>
 <!-- left-property-item-widget-wrap -->
 							<div class="right-property-item-widget-wrap">
 								<h2 class="item-title">
-	<a href="/property/ample-studio-at-last-floor/">Ample studio at last floor</a>
+	<a href="/property/confortable-apartment/">Confortable apartment</a>
 </h2>
 <!-- item-title -->								<ul class="item-price-wrap hide-on-list">
-	<li class="item-price"> 456K VNĐ</li>
-<li class="item-sub-price">2.9K VNĐ/sq ft</li>
+	<li class="item-price">3.7K VNĐ/mo</li>
 </ul>							</div>
 <!-- right-property-item-widget-wrap -->
 						</div>
@@ -2486,7 +2491,7 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 </div>
 <p class="mt-3">Houzez is a premium WordPress theme for Designers & Real Estate Agents.</p>
 </div>
-<label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1656990617"><input type="hidden" name="_mc4wp_form_id" value="1251"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div>
+<label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1657012175"><input type="hidden" name="_mc4wp_form_id" value="1251"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div>
 </form>
 <!-- / Mailchimp for WordPress Plugin -->
 </div></div>		</div>
@@ -2687,7 +2692,7 @@ User registration is disabled for demo purpose.                    </div>
                         <div class="form_messages"></div>
 
                         <form method="post">
-                            <input type="hidden" id="target_email" name="target_email" value="&#98;&#114;i&#116;ta&#110;y&#64;h&#111;uze&#122;&#46;&#99;o&#109;">
+                            <input type="hidden" id="target_email" name="target_email" value="brit&#116;&#97;&#110;y&#64;&#104;ouz&#101;z&#46;c&#111;m">
                             <input type="hidden" name="contact_realtor_ajax" id="contact_realtor_ajax" value="0a2250faae">
                             <input type="hidden" name="action" value="houzez_contact_realtor">
                             <input type="hidden" name="source_link" value="/agent/brittany-watkins/">
@@ -2788,4 +2793,7 @@ var houzez_vars = {"admin_url":"\/wp-admin\/","houzez_rtl":"no","user_id":"0","r
 <script type="text/javascript" defer src="/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.7" id="mc4wp-forms-api-js"></script>
 
 </body>
+
+
+<!-- Page generated by LiteSpeed Cache 4.6 on 2022-07-05 16:09:35 -->
 </html>
