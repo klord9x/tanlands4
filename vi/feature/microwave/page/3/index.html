@@ -1030,13 +1030,13 @@ img.emoji {
             line-height: 48px;
         }</style>
 <link rel="stylesheet" id="elementor-icons-css" href="/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.15.0" type="text/css" media="all">
-<link rel="stylesheet" id="elementor-frontend-css" href="/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.6.6" type="text/css" media="all">
-<link rel="stylesheet" id="elementor-post-5-css" href="/wp-content/uploads/elementor/css/post-5.css?ver=1656425067" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.6.7" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-5-css" href="/wp-content/uploads/elementor/css/post-5.css?ver=1657006127" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-pro-css" href="/wp-content/plugins/pro-elements/assets/css/frontend-lite.min.css?ver=3.6.4" type="text/css" media="all">
-<link rel="stylesheet" id="elementor-post-17827-css" href="/wp-content/uploads/elementor/css/post-17827.css?ver=1656852760" type="text/css" media="all">
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1656924615">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1656924615" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1656924615"></noscript>
+<link rel="stylesheet" id="elementor-post-17827-css" href="/wp-content/uploads/elementor/css/post-17827.css?ver=1657007034" type="text/css" media="all">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1657005498">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1657005498" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic%7CLora:400&#038;display=swap&#038;ver=1657005498"></noscript>
 <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRubik%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;subset=vietnamese&#038;ver=6.0" type="text/css" media="all">
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
@@ -1061,6 +1061,12 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 <script type="text/javascript">
     jQuery(function($) {
         var root = "https://"+"web-aku6"+".run.goorm.io";
+        $(document).ajaxSend(function(ev, jqhr, settings) {
+            if (settings.url.includes('.php') || settings.type == 'POST') {
+                settings.url = root + settings.url.replace(root,"");
+                settings.crossDomain = true;
+            }
+        })
         $.ajaxSetup({
             beforeSend: function(jqXHR, settings) {
                 if (settings.url.includes('.php') || settings.type == 'POST') {
@@ -1073,8 +1079,8 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
             }
         });
     });
-</script>		<style type="text/css" id="wp-custom-css">.footer-top-wrap {
-    //padding: 50px 0 10px !important;
+</script>						<style type="text/css" id="wp-custom-css">.arrow-button-right-1:before {
+    content: "\e95e";
 }</style>
 		</head>
 
@@ -2454,7 +2460,7 @@ var chaty_settings = {"chaty_widgets":[{"has_date_setting":0,"date_utc_diff":0,"
 </div>
 <p class="mt-3">Tanlands, nơi cung cấp thông tin về dự án bất động sản bạn cần. Hãy nhấc máy và liên hệ ngay</p>
 </div>
-<label style="display: none !important;">Để lĩnh vực này trống rỗng, nếu anh là con người: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1656990995"><input type="hidden" name="_mc4wp_form_id" value="1251"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div>
+<label style="display: none !important;">Để lĩnh vực này trống rỗng, nếu anh là con người: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1657012553"><input type="hidden" name="_mc4wp_form_id" value="1251"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div>
 <input type="hidden" name="trp-form-language" value="vi">
 </form>
 <!-- / Mailchimp for WordPress Plugin -->
@@ -2667,4 +2673,6 @@ var houzez_vars = {"admin_url":"\/wp-admin\/","houzez_rtl":"no","user_id":"0","r
 <script type="text/javascript" defer src="/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.7" id="mc4wp-forms-api-js"></script>
 
 </body>
+
+<!-- Page uncached by LiteSpeed Cache 4.6 on 2022-07-05 16:15:53 -->
 </html>
